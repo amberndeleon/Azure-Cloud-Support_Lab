@@ -212,16 +212,18 @@ Multiple failed login attempts locked user account.
 
 ---
 
-## Scenario 3 | RDP Connectivity Issue
+## Scenario 3 | Group Policy Issue
 
 ### Issue
-Unable to remotely access Azure VM
+User states company desktop wallpaper and password policy are not updating after login.
 
 ### Resolution
-- Verified VM power state
-- Reviewed NSG inbound rules
-- Tested Bastion connectivity
-- Confirmed RDP service status
+- Verified user OU placement
+- Checked applied policies
+- Reviewed Group Policy Configuration
+- Re-Enabled the GPO link
+- Forced Group Policy Update
+- Verfied Successful policy application
 
 ---
 
