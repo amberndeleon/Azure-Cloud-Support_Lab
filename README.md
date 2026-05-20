@@ -212,7 +212,7 @@ Multiple failed login attempts locked user account.
 
 ---
 
-# Scenario 3 | RDP Connectivity Issue
+## Scenario 3 | RDP Connectivity Issue
 
 ### Issue
 Unable to remotely access Azure VM
